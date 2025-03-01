@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С 8 марта</title>
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <h1>С праздником весны!</h1>
+    <p class="congratulations">Мы вас поздравляем с 8 марта!
+        <br>Желаем вам всего самого самого наилучшего!</p>
+    <div class="gallery">
+        <div class="card">
+            <div class="front"><img src="./img/arina.jpg" alt="Картинка 1"></div>
+            <div class="back">
+                <p>С&nbsp;вами можно и&nbsp;в&nbsp;окоп, и&nbsp;в&nbsp;гору; пережить метель, дожди, пургу и&nbsp;бурю; учиться, плакать и&nbsp;смеяться с&nbsp;дуру&nbsp;&mdash; с&nbsp;вами весело идти в&nbsp;любую авантюру.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/dasha.jpg" alt="Картинка 2"></div>
+            <div class="back">
+                <p>Физмат дело такое&nbsp;&mdash; сложно всем, но&nbsp;с&nbsp;вами, королевами, дела в&nbsp;гору стремятся. Вы&nbsp;красотой нас радуете каждый день, да&nbsp;и&nbsp;любых контрольных (физика не&nbsp;в&nbsp;счёт) нам нечего бояться!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/faina.jpg" alt="Картинка 3"></div>
+            <div class="back">
+                <p>Улыбка ваша согревает нам сердца и&nbsp;души; дорогие, улыбайтесь&nbsp;же вы&nbsp;чаще. С&nbsp;вами учиться в&nbsp;одном классе нам за&nbsp;счастье, и&nbsp;вы&nbsp;для нас непревзойденно лучшие.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/liza.jpg" alt="Картинка 4"></div>
+            <div class="back">
+                <p>И&nbsp;вы&nbsp;и&nbsp;так красавицы с&nbsp;журналов, модных газет и&nbsp;глянцевых обложек. Но&nbsp;мы&nbsp;желаем, чтоб становились только краше, и&nbsp;чтоб любили вы&nbsp;себя сильнее&nbsp;&mdash; это тоже.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/nadya.jpg" alt="Картинка 5"></div>
+            <div class="back">
+                <p>Чтоб становились с&nbsp;каждым днём всё ярче и&nbsp;сильнее; да&nbsp;чтоб всё больше загоралась вашей судьбы звезда; и&nbsp;чтоб про вас всё чаще говорили: &laquo;Кто принцесса школы? &mdash;&nbsp;естественно она!&raquo;</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/nataliya.jpg" alt="Картинка 6"></div>
+            <div class="back">
+                <p>Конечно&nbsp;же у&nbsp;вас среди парней неоспоримый плюс&nbsp;&mdash; при необходимости вы&nbsp;сможете найти ёмкость обкладок и&nbsp;конденсатора всего; и&nbsp;ускорение летящего яблока через баллистику&hellip; и&nbsp;в&nbsp;целом вы&nbsp;сможете сделать
+                    <nobr>всё-всё-всё</nobr>.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/sonya.jpg" alt="Картинка 7"></div>
+            <div class="back">
+                <p>Желаем вдохновения, чтоб созидали мир. Всё новых увлечий, раскрашенной палитрой красок впечатлений большой - большой любви. И&nbsp;множество светлых мгновений полных радости.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/ulya.jpg" alt="Картинка 8"></div>
+            <div class="back">
+                <p>Текст для картинки 8</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front"><img src="img/vika.jpg" alt="Картинка 9"></div>
+            <div class="back">
+                <p>Текст для картинки 9</p>
+            </div>
+        </div>
+    </div>
+    <div class="special_text">
+        <p>Девочки в 10 "Б" словно звёзды на ночном небосводе в городе: их немного, но они самые яркие, теплые и красивые в галактике, и нам очень повезло, что их свет, тепло и забота каждый день доходят до нас.</p>
+    </div>
+    <div class="footer">
+        <p><br><br><br><br>site by <a href="https:/t.me/st0rmed" target="_blank">Gleb Lazarev (тык)</a></p>
+        <p><br><br><br><br>portraits by <a href="https:/t.me/flankerrrrr" target="_blank"> Lev Mikhailov (тык)</a></p>
+        <p><br><br><br><br>poems by <a href="https:/t.me/Dzzokker_177" target="_blank"> Artem Dolgov (тык)</a></p>
+        <p><br><br><br><br>prose by <a href="https:/t.me/gendalfwhite77" target="_blank">Vladimir Verbin (тык)</a></p>
+    </div>
+    <script>
+        window.addEventListener("scroll", function () {
+            const footer = document.querySelector(".footer");
+            const scrollPosition = window.scrollY + window.innerHeight;
+            const footerPosition = footer.offsetTop;
+            if (scrollPosition > footerPosition) {
+                footer.classList.add("visible");
+            }
+            else {
+                footer.classList.remove("visible");
+            }
+        });
+    </script>
+</body>
+
+</html>
