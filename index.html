@@ -71,15 +71,19 @@
     <div class="special_text">
         <p>Девочки в 10 "Б" словно звёзды на ночном небосводе в городе: их немного, но они самые яркие, теплые и красивые в галактике, и нам очень повезло, что их свет, тепло и забота каждый день доходят до нас.</p>
     </div>
-    <div class="footer">
-        <p><br><br><br><br>site by <a href="https://t.me/st0rmed">Gleb Lazarev (тык)</a></p>
-        <p><br><br><br><br>portraits by <a href="https://t.me/flankerrrrr"> Lev Mikhailov (тык)</a></p>
-        <p><br><br><br><br>poems by <a href="https://t.me/Dzzokker_177"> Artem Dolgov (тык)</a></p>
-        <p><br><br><br><br>prose by <a href="https://t.me/gendalfwhite77">Vladimir Verbin (тык)</a></p>
-    </div>
+    <footer>
+        <div class="spacer"></div>
+        <div class="authors">
+            <p>site by <a href="https://t.me/st0rmed">Gleb Lazarev (тык)</a></p>
+        <p>portraits by <a href="https://t.me/flankerrrrr"> Lev Mikhailov (тык)</a></p>
+        <p>poems by <a href="https://t.me/Dzzokker_177"> Artem Dolgov (тык)</a></p>
+        <p>prose by <a href="https://t.me/gendalfwhite77">Vladimir Verbin (тык)</a></p>
+        <p>mobile version of site (без тыка)</p>
+        </div>
+    </footer>
     <script>
         window.addEventListener("scroll", function () {
-            const footer = document.querySelector(".footer");
+            const footer = document.querySelector("footer");
             const scrollPosition = window.scrollY + window.innerHeight;
             const footerPosition = footer.offsetTop;
             if (scrollPosition > footerPosition) {
