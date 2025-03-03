@@ -257,7 +257,6 @@ button:active {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
-
     background: linear-gradient(to top, white 30%, rgba(211, 203, 227, 0.8) 70%, rgba(235, 214, 233, 0.6) 100%);
     mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
     -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
@@ -270,10 +269,10 @@ button:active {
 
 .congratulations {
     color: black;
-    font-family: 'Courier New', monospace;
+    background-color: rgba(255, 255, 255, 0.2) font-family: 'Courier New', monospace;
     font-size: 23px;
     text-align: left;
-    padding: 20px;
+    padding: 30px 300px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     font-style: italic;
@@ -281,6 +280,7 @@ button:active {
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    text-align: center;
 }
 
 .congratulations:hover {
